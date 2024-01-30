@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+
+header {
+	width: 100%;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	
+
+video {
+	width: 100%;
+	opacity: #db0a0a68;
+	
+	
+}
+
+.ele {
+	width: 100%;
+	display: flex;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+h1{
+   font-size: 80px;
+   font-family: sans-serif;
+   z-index: 100;
+   font-weight: 900;
+   margin-bottom: 30px;
+   color: aliceblue;
+   
+  }
+
+button {
+	position: absolute;
+	bottom: -200px;
+	width: 160px;
+	height: 40px;
+	
+}
+
+button {
+	background: #f6e827;
+	border: solid 5px #ffec1f;
+	font-family: georgia;
+	font-size: 20px;
+    border-radius: 5px;
+	transition: 0.4s;
+	}
+
+button:hover > button  {
+    background: red;
+	border: blueviolet;
+
+
+}
